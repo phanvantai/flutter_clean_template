@@ -1,0 +1,70 @@
+name: clean_template
+description: flutter with clean architecture project structure 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.2
+  # bloc_________________________
+  flutter_bloc: 7.2.0
+
+  #freezed
+  freezed_annotation: ^0.15.0
+
+  # The following adds the shared pref as a dependency in your application
+  shared_preferences: ^2.0.13
+
+  # for dependency injection
+  get_it: ^7.1.3
+
+  # support for API
+  retrofit: '>=3.0.0 <4.0.0'
+  dio: ^4.0.4
+  json_annotation: ^4.4.0
+  pretty_dio_logger: ^1.1.1
+
+  #cached_network_image
+  cached_network_image: ^3.1.0
+
+  url_launcher: ^6.0.18
+  flutter_easyloading: ^3.0.3
+
+  # language location
+  easy_localization: 3.0.0
+
+  # animations
+  animations: ^2.0.2
+
+  # Crypto
+  crypto: ^3.0.1
+
+  # Value equality
+  equatable: ^2.0.3
+  
+  # Functional programming thingies
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # support API service
+  retrofit_generator: any
+  json_serializable: any
+  build_runner: any
+  freezed: ^0.15.0
+  
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
+
